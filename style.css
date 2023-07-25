@@ -12,7 +12,7 @@ html {
 }
 
 main {
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,8 +44,8 @@ main {
 
 .hero_pic {
   width: calc(100vw - 10px);
-  border-radius: 15px;
-  margin: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .sf_logo {
@@ -104,6 +104,9 @@ ul {
   height: 100hv;
   font-family: "Old Standard TT", serif;
   padding: 50px;
+  color: rgba(45, 58, 81, 1);
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .paragraphs {
@@ -113,6 +116,35 @@ ul {
 .paragraph {
   width: 40%;
   text-align: justify;
-  margin: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+
   font-family: "Sorts Mill Goudy", serif;
+  padding: 20px;
+
+  border-bottom: solid 2px rgba(45, 58, 81, 0.95);
+  border-top: solid 2px rgba(45, 58, 81, 0.95);
+}
+
+.page_buttom {
+  background-color: #def7fa;
+  border-radius: 15px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sf_c_logo {
+  height: 150px;
+  transition: ease 0.2s;
+}
+.sf_c_logo:hover {
+  scale: 110%;
+}
+
+.contact_icons {
+  display: flex;
+  margin: 20px;
 }
