@@ -19,7 +19,7 @@ main {
   justify-content: center;
   padding: 20px;
   margin: 5px;
-  background-color: #dfc6f3;
+  background-color: #ebe7e8;
   border-radius: 15px;
 }
 
@@ -29,7 +29,7 @@ main {
   height: 80px;
   width: 85%;
   border-radius: 40px;
-  color: #dfc6f3;
+  color: #ebe7e8;
   margin: 60px;
   transition: ease 0.2s;
   align-items: center;
@@ -43,9 +43,9 @@ main {
 }
 
 .hero_pic {
-  width: calc(100vw - 10px);
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  width: 50vw;
+  border-radius: 15px;
+  margin: 20px;
 }
 
 .sf_logo {
@@ -86,7 +86,7 @@ ul {
   margin-left: 50px;
   background-color: rgba(45, 58, 81, 0.95);
   padding: 10px;
-  color: #dfc6f3;
+  color: #ebe7e8;
   border-radius: 20px;
   transition: ease 0.4s;
   text-decoration: none;
@@ -146,5 +146,37 @@ ul {
 
 .contact_icons {
   display: flex;
+  margin: 50px;
+  padding: 20px;
+  border-top: solid 2px #2d3a51;
+  border-bottom: solid 2px #2d3a51;
+}
+
+.icon {
+  width: 100px;
+  margin-left: 50px;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  scale: 110%;
+}
+
+.hero_and_quote {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quote {
+  text-align: center;
   margin: 20px;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: larger;
+  color: #2d3a51;
+}
+
+.contact {
+  text-align: center;
 }
