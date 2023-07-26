@@ -194,7 +194,8 @@ ul {
   .nav {
     width: 80px;
     position: fixed;
-    top: 20px;
+    top: 10px;
+    margin-right: 0;
     justify-content: space-around;
   }
   .nav:hover {
@@ -208,22 +209,34 @@ ul {
   }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 700px) {
   .paragraphs {
     flex-direction: column;
     border-top: solid 2px #2d3a51;
     border-bottom: solid 2px #2d3a51;
+    align-items: center;
   }
   .paragraph {
     width: 100%;
     border: none;
   }
+  .hero_and_quote {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote {
+    float: none;
+  }
+
+  .icon {
+    margin-left: 10px;
+  }
 }
 
 .nav_expanded {
-  width: 50vw;
-  height: 80vh;
-  top: 20px;
+  width: 75vw;
+  height: 50vh;
+  top: 10px;
 }
 
 .ul_expanded {
