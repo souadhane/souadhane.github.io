@@ -19,8 +19,9 @@ main {
   justify-content: center;
   padding: 20px;
   margin: 5px;
-  background-color: #ebe7e8;
   border-radius: 15px;
+  background-image: url(pics/hero_bg.jpg);
+  background-size: cover;
 }
 
 .nav {
@@ -74,6 +75,11 @@ ul {
 
 .hero_text {
   height: calc(100vw / 4);
+  transition: ease 0.2s;
+}
+
+.hero_text:hover {
+  scale: 110%;
 }
 
 .hero {
@@ -223,8 +229,9 @@ ul {
 .ul_expanded {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   height: 80%;
   font-size: larger;
   font-weight: bolder;
+  text-decoration: wavy;
 }
