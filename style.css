@@ -215,6 +215,7 @@ ul {
     border-top: solid 2px #2d3a51;
     border-bottom: solid 2px #2d3a51;
     align-items: center;
+    font-size: 10pt;
   }
   .paragraph {
     width: 100%;
@@ -223,13 +224,20 @@ ul {
   .hero_and_quote {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    font-size: 9pt;
   }
   .quote {
     float: none;
+    margin: 5px;
   }
 
   .icon {
     margin-left: 10px;
+  }
+
+  .contact_icons {
+    margin: 10px;
   }
 }
 
@@ -237,6 +245,7 @@ ul {
   width: 75vw;
   height: 50vh;
   top: 10px;
+  padding-left: 20px;
 }
 
 .ul_expanded {
